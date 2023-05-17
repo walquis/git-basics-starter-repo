@@ -1,6 +1,11 @@
 
+# cd to root of current repo
+alias groot='cd $(git rev-parse --show-toplevel)'
+
+# git history graphs
 alias adog="git log --all --decorate --oneline --graph"
 alias addog='git log --all --decorate --oneline --graph --pretty=format:"%C(yellow)%h%Creset%C(cyan)%C(bold)%d%Creset %C(cyan)%cd%Creset %s" --date=format:"%y-%m%d-%H%M"'
+
 alias ga="git add"
 alias gb="git branch"
 alias gc="git commit"
