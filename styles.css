@@ -7,7 +7,9 @@ a {
   color: yellow;
 }
 
-h1 {
+h1, h2, p, .menu-sep {
+color: white;
+}
   font-family: 'Caesar Dressing', cursive;
 }
 
